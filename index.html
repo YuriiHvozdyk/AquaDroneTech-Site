@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="upper-title">
+        <div class="full-logo">
+            <div class="logo-picture">RC</div>
+            <div class="logo-text">AquaDrone Tech</div>
+        </div>
+        <nav class="nav-menu">
+            <a href="#home-section"><div class="nav-menu-item nav-menu-item-home">Home</div></a>
+            <a href="#about-section"><div class="nav-menu-item nav-menu-item-about">About</div></a>
+            <a href="#products-section"><div class="nav-menu-item nav-menu-item-products">Products</div></a>
+            <a href="#achievements-section"><div class="nav-menu-item nav-menu-item-achievements">Achievements</div></a>
+            <a href="#offers-section"><div class="nav-menu-item nav-menu-item-offers">Offers</div></a>
+            <a href="#contact-section"><div class="nav-menu-item nav-menu-item-contact">Contact</div></a>
+        </nav>
+
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <section class="home-section" id="home-section">
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="Background Video.mp4" type="video/mp4">
+        </video>
+        <h3 class="home-section-title">AquaDrone Tech</h3>
+        <h1 class="home-section-text">Innovative Radio-Controlled Boats for Fishing, Recreation & Professional Water Operations</h1>
+        <div class="home-section-buttons">
+            <a href="#products-section" class="ignore-a"><button class="home-section-button-explore">Explore Products</button></a>
+            <a href="#contact-section" class="ignore-a"><button class="home-section-button-contact">Get in touch</button></a>
+            </div>
+        <div class="scroll-arrow-container">
+            <span class="scroll-arrow">&#x2304;</span>
+        </div>
+    </section>
+
+    <section class="about-section" id="about-section">
+        <h1 class="about-section-title">About AquaDrone Tech</h1>
+        <h2 class="about-section-text">We are pioneers in designing and developing advanced radio-controlled boats for fishing, water monitoring, and professional aquatic operations. Our innovative water drones combine precision engineering with user-friendly controls to deliver unmatched performance on the water.</h2>
+        <div class="about-section-cards">
+            <div class="mission-card">
+                <div class="about-section-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    width="26" height="26" viewBox="0 0 24 24"
+                    fill="none" stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-target-icon lucide-target"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+                    </svg>
+                </div>
+                <p class="mission-card-title">Our Mission</p>
+                <p class="mission-card-text">To revolutionize water-based operations through innovative remote-controlled technology, making fishing and water management more efficient and accessible.</p>
+            </div>
+            <div class="innovation-card">
+                <div class="about-section-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-lightbulb-icon lucide-lightbulb"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>
+                    </svg>
+                </div>
+                <p class="innovation-card-title">Innovation</p>
+                <p class="innovation-card-text">We combine cutting-edge RC technology with practical water applications, creating smart solutions for modern challenges.</p>
+            </div>
+            <div class="cust-focus-card">
+                <div class="about-section-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-users-icon lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/>
+                    </svg>
+                </div>
+                <p class="cust-focus-card-title">Customer Focus</p>
+                <p class="cust-focus-card-text">Our designs are driven by real user needs, from recreational fishermen to professional water operations teams.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section" id="products-section">
+        <h1 class="products-section-title">Our Products</h1>
+        <h2 class="products-section-text">Cutting-edge RC boats designed for every need - from professional fishing operations to recreational water exploration.</h2>
+        <div class="products-section-cards">
+            <div class="product-card">
+                <img src="FisherPro RC.png" alt="FisherPro RC Image" class="product-card-image">
+                <div class="product-card-info-container">
+                    <p class="product-card-title">FisherPro RC</p>
+                    <p class="product-card-text">Advanced bait boat with GPS positioning, fish finder integration, and dual hoppers for maximum payload.</p>
+                    <ul class="product-card-features">
+                        <li>GPS Auto-Pilot</li>
+                        <li>5kg Payload</li>
+                        <li>2km Range</li>
+                        <li>6h Battery Life</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="AquaScout Drone.png" alt="AquaScout RC Image" class="product-card-image">
+                <div class="product-card-info-container">
+                    <p class="product-card-title">AquaScout RC</p>
+                    <p class="product-card-text">Versatile water drone for monitoring, surveying, and recreational use with real-time video transmission.</p>
+                    <ul class="product-card-features">
+                        <li>HD Camera</li>
+                        <li>Water Sampling</li>
+                        <li>3km Range</li>
+                        <li>8h Battery Life</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="CompactCast Mini.png" alt="CompactCast Mini Image" class="product-card-image">
+                <div class="product-card-info-container">
+                    <p class="product-card-title">CompactCast Mini</p>
+                    <p class="product-card-text">Portable and affordable entry-level RC boat perfect for recreational fishing and beginners.</p>
+                    <ul class="product-card-features">
+                        <li>Easy Control</li>
+                        <li>2kg Payload</li>
+                        <li>800m Range</li>
+                        <li>4h Battery Life</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="product-section-describing-elements">
+            <div class="describing-element">
+                <span class="describing-element-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="32" height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-anchor-icon lucide-anchor"><path d="M12 6v16"/><path d="m19 13 2-1a9 9 0 0 1-18 0l2 1"/><path d="M9 11h6"/><circle cx="12" cy="4" r="2"/></svg>
+                </span>
+                <p class="describing-element-title">Precision Control</p>
+                <span class="describing-element-text">Advanced stabilization and GPS positioning</span>
+            </div>
+            <div class="describing-element">
+                <span class="describing-element-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="32" height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-radio-icon lucide-radio"><path d="M16.247 7.761a6 6 0 0 1 0 8.478"/><path d="M19.075 4.933a10 10 0 0 1 0 14.134"/><path d="M4.925 19.067a10 10 0 0 1 0-14.134"/><path d="M7.753 16.239a6 6 0 0 1 0-8.478"/><circle cx="12" cy="12" r="2"/></svg>
+                </span>
+                <p class="describing-element-title">Long Range</p>
+                <span class="describing-element-text">Up to 3km radio transmission range</span>
+            </div>
+            <div class="describing-element">
+                <span class="describing-element-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="32" height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-battery-icon lucide-battery"><path d="M 22 14 L 22 10"/><rect x="2" y="6" width="16" height="12" rx="2"/></svg>
+                </span>
+                <p class="describing-element-title">Extended Battery</p>
+                <span class="describing-element-text">4-8 hours of continuous operation</span>
+            </div>
+            <div class="describing-element">
+                <span class="describing-element-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="32" height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-brain-circuit-icon lucide-brain-circuit"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M9 13a4.5 4.5 0 0 0 3-4"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M12 13h4"/><path d="M12 18h6a2 2 0 0 1 2 2v1"/><path d="M12 8h8"/><path d="M16 8V5a2 2 0 0 1 2-2"/><circle cx="16" cy="13" r=".5"/><circle cx="18" cy="3" r=".5"/><circle cx="20" cy="21" r=".5"/><circle cx="20" cy="8" r=".5"/></svg>
+                </span>
+                <p class="describing-element-title">Smart Features</p>
+                <span class="describing-element-text">Auto-return, depth sensing, and more</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievements-section" id="achievements-section">
+        <h1 class="achievements-section-title">Our Achievements</h1>
+        <h2 class="achievements-section-text">Milestones that mark our journey of innovation and excellence in the RC marine technology industry.</h2>
+        <div class="achievements-section-cards">
+            <div class="achievement-card">
+                <div class="achievement-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-users-icon lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/>
+                    </svg>
+                </div>
+                <p class="achievement-card-title">5,000+</p>
+                <p class="achievement-card-text">Happy Customers</p>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>
+                    </svg>
+                </div>
+                <p class="achievement-card-title">45+</p>
+                <p class="achievement-card-text">Countries Worldwide</p>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-award-icon lucide-award"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/>
+                    </svg>
+                </div>
+                <p class="achievement-card-title">12</p>
+                <p class="achievement-card-text">Industry Awards</p>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-trending-up-icon lucide-trending-up"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/>
+                    </svg>
+                </div>
+                <p class="achievement-card-title">98%</p>
+                <p class="achievement-card-text">Customer Satisfaction</p>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item right">
+                <div class="dot"></div>
+                <span class="timeline-item-year">2024</span>
+                <p class="timeline-item-title">Innovation Award</p>
+                <p class="timeline-item-text">Best Marine Technology Innovation at the International Fishing Expo</p>
+            </div>
+            <div class="timeline-item left">
+                <div class="dot"></div>
+                <span class="timeline-item-year">2023</span>
+                <p class="timeline-item-title">Market Leader</p>
+                <p class="timeline-item-text">Became the #1 RC bait boat manufacturer in Europe</p>
+            </div>
+            <div class="timeline-item right">
+                <div class="dot"></div>
+                <span class="timeline-item-year">2022</span>
+                <p class="timeline-item-title">Product Launch</p>
+                <p class="timeline-item-text">Launched AquaScout Drone - first commercial water monitoring RC boat</p>
+            </div>
+            <div class="timeline-item left">
+                <div class="dot"></div>
+                <span class="timeline-item-year">2021</span>
+                <p class="timeline-item-title">Company Founded</p>
+                <p class="timeline-item-text">Started with a vision to revolutionize water-based RC technology</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers-section" id="offers-section">
+        <span class="offers-section-title">Special Offers & Packages</span>
+        <span class="offers-section-text">Choose the perfect package for your needs. All packages include free shipping and setup assistance.</span>
+        <div class="offers-section-cards">
+            <div class="offer-card">
+                <span class="offer-card-title">Starter Package</span>
+                <span class="offer-card-price">$899</span>
+                <ul class="offer-card-features">
+                    <li>CompactCast Mini RC Boat</li>
+                    <li>Standard Controller</li>
+                    <li>2 Batteries (4h each)</li>
+                    <li>Basic Training Guide</li>
+                    <li>1 Year Warranty</li>
+                    <li>Email Support</li>
+                </ul>
+                <button class="offer-card-button">Get Started</button>
+            </div>
+            <div class="offer-card most-popular">
+                <span class="offer-card-title">Professional Package</span>
+                <span class="offer-card-price">$2,499</span>
+                <ul class="offer-card-features">
+                    <li>FisherPro RC Boat</li>
+                    <li>Premium GPS Controller</li>
+                    <li>4 High-Capacity Batteries</li>
+                    <li>Fish Finder Integration</li>
+                    <li>Complete Training Course</li>
+                    <li>2 Year Warranty</li>
+                    <li>Priority Support</li>
+                    <li>Free Accessories Kit</li>
+                </ul>
+                <button class="offer-card-button most-popular">Get Started</button>
+            </div>
+            <div class="offer-card">
+                <span class="offer-card-title">Enterprise Package</span>
+                <span class="offer-card-price">$4,999</span>
+                <ul class="offer-card-features">
+                    <li>AquaScout Drone + FisherPro</li>
+                    <li>Advanced Control System</li>
+                    <li>8 Premium Batteries</li>
+                    <li>HD Camera & Sensors</li>
+                    <li>On-site Training</li>
+                    <li>3 Year Warranty</li>
+                    <li>24/7 Support</li>
+                    <li>Custom Configuration</li>
+                </ul>
+                <button class="offer-card-button">Get Started</button>
+            </div>
+        </div>
+        <div class="promotions-section">
+            <span class="promotions-section-title">Current promotions</span>
+            <div class="current-promotions">
+                <div class="promotion-card">
+                    <span class="promotion-title">Launch Promotion</span>
+                    <span class="promotion-text">Get 15% off on all FisherPro models until end of December 2025</span>
+                    <span class="promotion-code">Code: FISHER15</span>
+                </div>
+                <div class="promotion-card">
+                    <span class="promotion-title">Bundle Discount</span>
+                    <span class="promotion-text">Buy 2 or more boats and save 20% on accessories</span>
+                    <span class="promotion-code">Code: BUNDLE20</span>
+                </div>
+                <div class="promotion-card">
+                    <span class="promotion-title">Referral Bonus</span>
+                    <span class="promotion-text">Refer a friend and both get $100 credit on your next purchase</span>
+                    <span class="promotion-code">Code: REFER100</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-section" id="contact-section">
+        <h1 class="contact-section-title">Get in Touch</h1>
+        <h2 class="contact-section-text">Have questions about our products? Want to discuss a custom solution? We're here to help!</h2>
+        <div class="contact-section-contacts">
+            <div class="contact-options">
+                <span class="contact-options-info-title">Contact Information</span>
+                <div class="contact-card email">
+                    <span class="contact-card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                        width="26" height="26" viewBox="0 0 24 24"
+                        fill="none" stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-mail-icon lucide-mail"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 6-10 7L2 6"/>
+                        </svg>
+                    </span>
+                    <div class="contact-card-info">
+                        <p class="contact-card-title">Email</p>
+                        <p class="contact-card-text">info@aquadronetech.com</p>
+                    </div>
+                </div>
+                <div class="contact-card phone">
+                    <span class="contact-card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                        width="26" height="26" viewBox="0 0 24 24"
+                        fill="none" stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/>
+                        </svg>
+                    </span>
+                    <div class="contact-card-info">
+                        <p class="contact-card-title">Phone</p>
+                        <p class="contact-card-text">+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="contact-card address">
+                    <span class="contact-card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                        width="26" height="26" viewBox="0 0 24 24"
+                        fill="none" stroke="#155dfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </span>
+                    <div class="contact-card-info">
+                        <p class="contact-card-title">Address</p>
+                        <p class="contact-card-text">123 Marina Bay, Tech Harbor, CA 94105</p>
+                    </div>
+                </div>
+                <span class="contact-options-info-hours">Business Hours</span>
+                <div class="contact-business-hours">
+                    <div class="business-days">
+                        <p class="business-hours-text">Monday - Friday</p>
+                        <p class="business-hours-text">Saturday</p>
+                        <p class="business-hours-text">Sunday</p>
+                    </div>
+                    <div class="business-hours">
+                        <p class="business-hours-text">9:00 AM - 6:00 PM</p>
+                        <p class="business-hours-text">10:00 AM - 4:00 PM</p>
+                        <p class="business-hours-text">Closed</p>
+                    </div>
+                </div>
+                <span class="contact-options-info-follow">Follow us</span>
+                <div class="contact-follow-icons">
+                    <span class="contact-follow-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></span>
+                    <span class="contact-follow-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter-icon lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></span>
+                    <span class="contact-follow-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></span>
+                    <span class="contact-follow-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></span>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <span class="contact-form-title">Send us a Message</span>
+                <form class="contact-form" action="#" method="POST">
+    
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Product inquiry" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your needs..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">
+                        <span class="icon-send">&#x27A4;</span> 
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <span class="footer-text">© 2025 AquaDrone Tech. All rights reserved.</span>
+    </footer>
+    <script>
+        const burger = document.querySelector('.burger-menu');
+        const nav = document.querySelector('.nav-menu');
+
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('active');
+            nav.classList.toggle('active');
+
+            burger.classList.add('flash');
+            setTimeout(() => {
+                burger.classList.remove('flash');
+            }, 400);
+        });
+
+    </script>
+</body>
+</html>
